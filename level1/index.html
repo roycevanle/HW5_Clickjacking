@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>HW3 - Clickjacking</title>   
+      <link rel="stylesheet" href="/static/main.css">
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      
+  </head>
+  <body>
+   
+    <header>
+      <div class="container">
+        <h1 class="logo">HW3 - Clickjacking</h1>
+        <strong><nav>
+            <ul class="menu">
+                <li><a href="/level/1">Level 1</a></li>
+                <li><a href="/level/2?name=testuser">Level 2</a></li>
+                <li><a href="/level/3?name=testuser">Level 3</a></li>
+            </ul>
+        </nav></strong>
+      </div>
+    </header> 
+     
+    <div class="container">
+      
+    <div class="jumbo" style="padding-left:5em">
+    	
+    		<form method="GET" action="/static/totally_not_a_virus.exe">
+				<button type="submit"><img src="http://www.download-square.com/wp-content/uploads/2015/03/Download-button.png" /></button>
+			</form>
+    	
+    </div>
+
+    </div>
+     
+  </body>
+</html>
+We have two different wounds and looking at yours does nothing to heal mine
