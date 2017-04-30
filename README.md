@@ -3,7 +3,10 @@ INFO 415
 HW3 - Advanced XSS Payloads Homework
 
 --------- Vulnerabilities ---------
-*I don't have my files as an HTML file in a zip folder because some of my html & css attributes are dependent on being ran on a server, so, I hosted the three levels on my website for easy access. Here are the links to the vulnerabilities.
+*I don't have my files as an HTML file in a zip folder because some of my html & css attributes are dependent on being ran on a server, so, I hosted the three levels on my website for easy access. Here are the links to the vulnerabilities:
+Level 1: http://students.washington.edu/royle/info415/HW5_Clickjacking/
+Level 2: http://students.washington.edu/royle/info415/HW5_Clickjacking/index2.html
+Level 3: http://students.washington.edu/royle/info415/HW5_Clickjacking/index3.html
 
 --------- The Report ---------
 *What is clickjacking and why is it bad?
