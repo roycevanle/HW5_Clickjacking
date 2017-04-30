@@ -1,7 +1,9 @@
 #hacked {
-    opacity: 0;
-    width: 200px;
-    height: 100px;
+    opacity: 0.0;
+    width: 400px;
+    height: 200px;
+    margin-left: -172px;
+    margin-top: -89px;
     z-index: 1;
     overflow: hidden;
 }
@@ -13,7 +15,7 @@
 
 #what {
     position: absolute;
-    left:49%;
+    left: 48.8%;
     margin-top: 55px;
 }
 
